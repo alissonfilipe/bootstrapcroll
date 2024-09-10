@@ -1,0 +1,14 @@
+
+
+.navbar-default {
+    background-color: #fff !important;
+    border: 0;
+    font-family: Poppins !important;
+}
+
+.navbar-brand {
+    font-size:20px;
+    color: black !important;
+    font-weight: bold;
+}
+
