@@ -1,4 +1,19 @@
+body {
+    font-size: 16px;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins;
+}
+
+p {
+    font-family: Roboto;
+}
 
 .navbar-default {
     background-color: #fff !important;
@@ -7,8 +22,69 @@
 }
 
 .navbar-brand {
-    font-size:20px;
+    font-size: 20px;
     color: black !important;
     font-weight: bold;
 }
 
+#showcase h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#showcase img {
+    width: 90%;
+    margin-left: 60px;
+}
+
+#showcase .showcase-right {
+    margin-top: 45px;
+}
+
+#testimonial {
+    background-color: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#testimonial p {
+    font-size: larger;
+    font-family: Josefin Sans;
+    color: black;
+}
+
+#testimonial p.costumer {
+    font-size: 20px;
+    color: #666;
+}
+
+#info1 .info-right {
+    margin-top: 90px;
+}
+
+#info2 {
+    margin: 20px 0 60px 0;
+}
+
+#contact {
+    background: url(https://cdn.pixabay.com/photo/2016/11/18/12/55/office-1834294_640.jpg) no-repeat center center;
+    background-size: cover;
+    /* Faz a imagem cobrir toda a área sem quebrar */
+    padding: 40px;
+    color: #fff;
+    border-top: #333 7px solid;
+    /* Corrigido de 'sollid' para 'solid' */
+    border-bottom: #333 7px solid;
+    /* Corrigido de 'sollid' para 'solid' */
+}
+
+#contact img {
+    width: 100%;
+    height: auto;
+    /* Certifique-se de manter a proporção da imagem */
+}
+
+footer {
+    padding: 30px;
+}
