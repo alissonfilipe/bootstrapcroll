@@ -21,5 +21,3 @@
 # imganes grátis
 - https://pixabay.com/pt/
 
-# tempo 
-- 13:54
